@@ -1,139 +1,137 @@
-# **Procesamiento del lenguaje natural (PLN)**
+# **Natural Language Processing (NLP)**
 
-## **Método Para Detectar la Similitud de Códigos de Fuente de Programas en Java en Tareas Escolares**
+## **Method for Detecting the Similarity of Source Code of Java Programs in School Assignments**
 
-En este presente proyecto se pretende desarrollar un Método de Inteligencia Artificial para la detección de plagio de código fuente de programas en tareas escolares para el lenguaje de [Java](https://www.java.com/en/download/help/whatis_java.html)
+In this present project, we aim to develop an Artificial Intelligence Method for detecting plagiarism of source code of programs in school assignments for the [Java](https://www.java.com/en/download/help/whatis_java.html) language.
 
-### **Lenguaje de programación Python**
+### **Python Programming Language**
 
 ---
 
 ![Python](imgMD/py.png)
 
-El lenguaje a utilizar para el desarrollo del Método sera el lenguaje de Python
-Python es un lenguaje de programación potente y fácil de aprender. Tiene estructuras de datos de alto nivel eficientes y un simple pero efectivo sistema de programación orientado a objetos. La elegante sintaxis de Python y su tipado dinámico, junto a su naturaleza interpretada lo convierten en un lenguaje ideal para scripting y desarrollo rápido de aplicaciones en muchas áreas, para la mayoría de plataformas.
+The language to be used for the development of the Method will be Python. Python is a powerful programming language and easy to learn. It has efficient high-level data structures and a simple yet effective object-oriented programming system. Python's elegant syntax and dynamic typing, along with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas, for most platforms.
 
-El intérprete de Python y la extensa librería estándar se encuentran disponibles libremente en código fuente y de forma binaria para la mayoría de las plataformas desde la Web de Python, [obtener Python](https://www.python.org/), y se pueden distribuir libremente. El mismo sitio también contiene distribuciones y referencias a muchos módulos libres de Python de terceros, programas, herramientas y documentación adicional.
+The Python interpreter and the extensive standard library are available freely in source or binary form for most platforms from the Python Web, [get Python](https://www.python.org/), and can be freely distributed. The same site also contains distributions and references to many free third-party Python modules, programs, tools, and additional documentation.
 
-El intérprete de Python es fácilmente extensible con funciones y tipos de datos implementados en C o C++ (u otros lenguajes que permitan ser llamados desde C). Python también es apropiado como un lenguaje para extender aplicaciones modificables. [Python Software Foundation](https://docs.python.org/es/3/tutorial/).
+The Python interpreter is easily extensible with functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as a language for extending customizable applications. [Python Software Foundation](https://docs.python.org/es/3/tutorial/).
 
-### **Instalación de Python**
+### **Python Installation**
 
-Descargar el interprete de Python [descarga](https://www.python.org/downloads/), en el botón de descarga es la version actual al momento la versión 3.11.3 para el sistema operativo Windows en x64
-**x64:** es el tipo de arquitectura con el cual cuenta nuestro equipo de computo, el cual se puede saber haciendo un
+Download the Python interpreter [download](https://www.python.org/downloads/), on the download button is the current version at the moment, version 3.11.3 for the Windows x64 operating system.
+**x64:** is the type of architecture our computer has, which can be known by doing the following:
 
-![Descarga de Interprete](imgMD/downloadPython.png)
+![Download Interpreter](imgMD/downloadPython.png)
 
-* De lo contrario si se busca una versión anterior de Python deslizando hacia abajo se puede saber presionando la tecla Windows + R, escribimos control y enter, en Sistema y seguridad, seguido de sistema, nos dará las especificaciones del sistema, sí la arquitectura del sistema es de x86 o x32 quiere decir que la version de Python 3.11.3 puede ocasionar problemas su instalación
+* Otherwise, if you are looking for an older version of Python by scrolling down, you can find out by pressing the Windows + R key, type control, and enter; in System and Security, followed by System, it will give us the system specifications. If the system architecture is x86 or x32, it means that the installation of Python 3.11.3 may cause issues.
 
-    ![Interprete anterior](imgMD/downloadPythonOld.png)
+    ![Older Interpreter](imgMD/downloadPythonOld.png)
 
-* Ya una vez descargado el archivo procedemos a darle en abrir archivo
+* Once the file is downloaded, proceed to open the file.
 
     ![Install Python](imgMD/OpenFile.png)
 
-* Si aparece la siguiente ventana le decimos que instalar de todos modos (anyway)
+* If the following window appears, we say to install it anyway.
 
     ![Install anyway](imgMD/anyway.png)
 
-* Marcamos la casilla de agregar al path y escogemos la forma de instalación, en mí caso sera la segunda la personalizada
+* Check the box to add to the path and choose the installation method. In my case, it will be the second, the customized installation.
   
     ![addPath](imgMD/addPath.png)
 
-* Dejamos marcadas todas las características, en caso de estar desmarcadas marcarlas
+* Check all the features; if they are unchecked, check them.
   
     ![features](imgMD/features.png)
 
-* Dejamos las opciones avanzadas asi como están, y cambiamos o no la ruta de instalación, le damos en Instalar, después nos aparecerá la ventana de permisos de administrador y le decimos que sí
+* Leave the advanced options as they are, and optionally change the installation path or not, then click Install. After that, the administrator permissions window will appear, and we say yes.
 
     ![Advanced](imgMD/advanced.png)
 
-* Esperamos a que termine de instalarse
+* Wait for the installation to complete.
 
     ![Progress](imgMD/progress.png)
 
-* Aquí solo le damos en cerrar
+* Here, just click close.
 
     ![Successful](imgMD/successuful.png)
 
-* Para saber que tenemos python instalado y en que versión
+* To know that we have Python installed and in which version:
 
     ```text
-    Desde el cmd Windows: python --version
-    Desde un terminal Linux: python --version, python3 --version o python2 --version
-    Desde MacOS: usted% python, usted% python3
+    From the Windows cmd: python --version
+    From a Linux terminal: python --version, python3 --version, or python2 --version
+    From MacOS: you% python, you% python3
     ```
 
     ![PythonVersionWindows](imgMD/pythonVW.png)
 
     ![PythonVersionLinux](imgMD/pythonVL.png)
 
-1. Para descargar e instalar Python para Linux. Normalmente Python por lo regular ya viene instalado en las distros Linux pero de lo contrario instalar con el siguiente comando desde terminal
+1. To download and install Python for Linux. Python usually comes pre-installed in most Linux distros, but if not, you can install it with the following command from the terminal:
 
-   * Para Debian, Ubuntu, y derivados
+   * For Debian, Ubuntu, and derivatives:
 
     ```bash
     sudo apt-get install python3
     ```
 
-   * Para RHEL, RedHat, Fedora, CentOs y derivados
+   * For RHEL, RedHat, Fedora, CentOs, and derivatives:
 
     ```bash
     sudo dnf install python3
     ```
 
-   * Para ArchLinux, Manjaro, EndeavourOS y derivados
+   * For ArchLinux, Manjaro, EndeavourOS, and derivatives:
 
     ```bash
     sudo pacman -Sy python-pip
     ```
 
-2. Para hacer la instalación de Python en MacOS es mediante el siguiente comando
+2. To install Python on macOS, use the following command:
 
     ```bash
     brew install python
     ```
-
-### **Introducción al lenguaje de Python**
+### **Introduction to Python Language**
 
 ---
-Para poder comenzar a crear código en lenguaje Python podemos crear un archivo con la extension .py, ejemplo helloWord.py y abrirla con cualquier editor de texto como Visual Studio Code, bloc de notas, sublime text, atom, etc.
+To start writing code in Python, we can create a file with the .py extension, for example, helloWord.py, and open it with any text editor such as Visual Studio Code, Notepad, Sublime Text, Atom, etc.
 
-#### **Editores de texto**
+#### **Text Editors**
 
-un editor de texto es cualquier programa de procesamiento de texto que puedes usar para escribir y editar un texto, como Word Pad y NotePad para Windows y SimpleText y TextEdit para Mac.
+A text editor is any word processing program that you can use to write and edit text, like WordPad and NotePad for Windows and SimpleText and TextEdit for Mac.
 
-Se trata de un programa informático que te permitirá editar o crear archivos digitales compuestos únicamente por textos sin formato. Es decir, archivos que no contengan formato de texto específico y que son conocidos comúnmente como archivos de texto o texto plano.
+It is a computer program that will allow you to edit or create digital files composed only of plain text. In other words, files that do not contain specific text formatting and are commonly known as text files or plain text.
 
-Esa es la definición general de qué es un editor de texto, pero, ahondando un poco en la  descripción del lenguaje informático, vemos que los editores de texto son programas informáticos que leen el archivo e interpretan los bytes leídos, según el código de caracteres que usa el editor, siendo común encontrar hoy en día códigos de 7 u 8 bits en ASCII o UTF-8, rara vez EBCDIC.
+That is the general definition of what a text editor is, but delving a bit into the description of the computer language, we see that text editors are computer programs that read the file and interpret the bytes read according to the character code used by the editor. Nowadays, it is common to find 7 or 8-bit codes in ASCII or UTF-8, rarely EBCDIC.
 
-Los editores de texto son de gran utilidad en el área de la programación de sistemas, específicamente en el desarrollo y diseño de aplicaciones, dado que el código fuente de los programas está hecho en texto plano.
+Text editors are of great use in the area of systems programming, specifically in the development and design of applications since the source code of programs is made in plain text.
 
-Un ejemplo de esto serían los lenguajes de codificación simples del tipo HTML y CSS, así como los script interpretados de algunos lenguajes como el lenguaje de Javascript o el lenguaje de Python, entre muchos otros lenguajes de programación empleados en el desarrollo web
+An example of this would be simple coding languages like HTML and CSS, as well as interpreted scripts of some languages like Javascript or Python, among many other programming languages used in web development.
 
-1. ***Visual Studio Code:*** Actualmente, este es el principal editor de código para el desarrollo web, fue creado por Microsoft en el año 2015 y cuenta con resaltado de sintaxis, autocompletado, extensiones, soporte para la depuración y está disponible tanto para Windows, Linux, MacOS y hace poco también para la web.
+1. ***Visual Studio Code:*** Currently, this is the main code editor for web development, created by Microsoft in 2015. It has syntax highlighting, auto-completion, extensions, debugging support, and is available for Windows, Linux, MacOS, and recently also for the web.
 
     ![VSC](https://code.visualstudio.com/assets/updates/1_37/icons.gif)
 
-2. ***Sublime Text:*** Fue inicialmente una extensión de Vim (otro editor de código), al igual que VS Code cuenta con extensiones, resaltado de sintaxis, está disponible para Windows, Linux y MacOS. Cuando lo descargas cuentas con una prueba para que lo evalúes de forma gratuita para, luego, comprar su licencia
+2. ***Sublime Text:*** It was initially an extension of Vim (another code editor). Like VS Code, it has extensions, syntax highlighting, and is available for Windows, Linux, and MacOS. When you download it, you have a trial to evaluate it for free before purchasing its license.
 
     ![Sublime](https://www.sublimetext.com/screenshots/sublime_text_4_auto_complete.gif)
 
-3. ***Vim:*** Vim es un editor de código un tanto peculiar, ya que no se ejecuta de manera visual, sino directamente en la terminal. Fue creado en 1991 y cuenta con resaltado de sintaxis, autocompletado y extensiones. Esta disponible para Windows, Linux y MacOS.
+3. ***Vim:*** Vim is a somewhat peculiar code editor as it does not run visually but directly in the terminal. Created in 1991, it has syntax highlighting, auto-completion, and extensions. It is available for Windows, Linux, and MacOS.
 
     ![Vim](https://i.makeagif.com/media/10-26-2013/s4xcfD.gif)
 
-4. ***Brackets:*** Brackets es un editor de código web, cuenta con soporte para Linux MacOS y Windows, pero su principal fuerte es la web, fue creado por adobe en 2014.
+4. ***Brackets:*** Brackets is a web code editor with support for Linux, MacOS, and Windows, but its main strength is the web. It was created by Adobe in 2014.
 
    ![Brackets](https://www.webfx.com/wp-content/uploads/2021/10/0584-13-brackets-extension-html-wrapper.gif)
 
-5. ***Notepad++:*** Fue creado en 2003, cuenta con soporte para varios lenguajes de programación y cuenta con resaltado de sintaxis. Esta disponible para Windows, Linux y MacOS.
+5. ***Notepad++:*** Created in 2003, it supports several programming languages and has syntax highlighting. It is available for Windows, Linux, and MacOS.
 
     ![Notepad++](https://code2care.org/tutorial/customize-notepad-plus-plus-toolbar/images/Customize%20Notepad++%20Toolback%20icons.gif)
 
-Para comenzar podemos abrir un cmd (windows) o un terminal (Linux, MacOS). Sí en Linux o MacOs la palabra de ejecución es (python3 o python) sera la que usaremos para ejecutar el interprete de python desde consola, para windows es python
+To start, we can open a cmd (Windows) or a terminal (Linux, MacOS). If in Linux or MacOS the execution word is (python3 or python), that will be what we use to run the Python interpreter from the console. For Windows, it is python.
 
-* windows
+* Windows
 
     ![InterpretePython](imgMD/pythonIW.png)
 
@@ -141,324 +139,87 @@ Para comenzar podemos abrir un cmd (windows) o un terminal (Linux, MacOS). Sí e
 
     ![InterpretePythonLinux](imgMD/pythonIL.png)
 
-Cómo podemos notar en ambos nos asigna un prompt (>>>), a continuación podemos escribir como escribir un Hola mundo, para ejecutar solo damos enter
+As we can notice, both assign us a prompt (>>>), where we can write a "Hello World" program. To run it, just press enter.
 
-```python
-print ("Hola mundo")
-```
+```python```
+print ("Hello World")
 
-Y como podemos observar nos muestra el hola mundo
+And as we can see, it shows "Hello World".
 
 ![HelloWorld](imgMD/helloworld.png)
 
-Para salir del interprete de Python escribimos exit() y enter
+To exit the Python interpreter, type exit() and press enter.
 
 ![Exit](imgMD/exit.png)
 
-Así mismo se puede tanto para declara variables, importar módulos, etc, pero para que se tenga todo en un solo documento podemos crear uno con cualquier editor de texto o desde su IDE que al ser instalado con instala un IDE llamado IDLEñañ
+You can also declare variables, import modules, etc., but to keep everything in one document, we can create one with any text editor or from its IDE which, when installed, includes an IDE called IDLE.
 
 #### ***IDE***
 
-Un IDE o entorno de desarrollo integrado es una aplicación de tipo software que combina en un solo lugar todas las herramientas necesarias para realizar un proyecto de desarrollo de software. Ofrece una interfaz que permite escribir código, organizar grupos de texto y automatizar las tareas redundantes de programación.
+An IDE or Integrated Development Environment is a software application that combines all the tools necessary to carry out a software development project in one place. It offers an interface that allows you to write code, organize text groups, and automate redundant programming tasks.
 
-Más que un editor de código, los IDE combinan las funcionalidades de varios procesos de programación en un mismo lugar. Poseen al menos un editor, un compilador, un desbloqueador, y las funcionalidades de complexión de código o de gestión de código genérico. Los más avanzados ofrecen también funcionalidades de [Data Visualization](https://datascientest.com/es/dataviz-definicion-objetivos-y-usos), de Tracing o de referencias cruzadas.
+More than a code editor, IDEs combine the functionalities of several programming processes in one place. They have at least one editor, a compiler, a debugger, and code completion or generic code management functionalities. The most advanced ones also offer functionalities for [Data Visualization](https://datascientest.com/es/dataviz-definicion-objetivos-y-usos), Tracing, or cross-references.
 
-1. **IDLE para Python**
+1. **IDLE for Python**
 
-    IDLE es el entorno de desarrollo integrado de Python.
-    IDLE tiene las siguientes características:
+    IDLE is Python's Integrated Development Environment.
+    IDLE has the following features:
 
-    * Escrito 100% en Python puro, usando el kit de herramientas GUI tkinter
+    * Written 100% in pure Python, using the tkinter GUI toolkit
 
-    * Multiplataforma: funciona en su mayoría igual en Windows, Unix y macOS
+    * Cross-platform: works mostly the same on Windows, Unix, and macOS
 
-    * La ventana del shell de Python (interprete interactivo) con coloreado de código de entrada, salida y mensajes de error
+    * Python shell window (interactive interpreter) with colorizing of code input, output, and error messages
 
-    * Editor de texto multiventana con deshacer múltiple, coloreación Python, indentado inteligente, sugerencias de llamadas a funciones, autocompletado y otras características
+    * Multi-window text editor with multiple undo, Python colorizing, smart indent, call tips, auto completion, and other features
 
-    * Búsqueda dentro de cualquier ventana, reemplazo dentro de las ventanas del editor, y búsqueda a través de múltiples archivos (grep)
+    * Search within any window, replace within editor windows, and search through multiple files (grep)
 
-    * Depurador con breakpoints persistentes, por pasos y visualización de espacios de nombres globales y locales
+    * Debugger with persistent breakpoints, stepping, and viewing of global and local namespaces
 
-    * Configuración, navegadores y otros cuadros de diálogo
+    * Configuration, browsers, and other dialogs
 
     ![idle](https://www.deborahrfowler.com/PythonResources/programmingPDF/gifs/PythonIDLEIntro.gif)
 
 2. **PyCharm**
 
-    Considerado el mejor IDE de Python para desarrolladores, PyCharm no deja piedra sin removerencanto' tú. Este producto de nivel empresarial es desarrollado por JetBrains, una empresa de software checa, que proporciona todas las herramientas que necesita para Python en un solo lugar. Tiene muchas funciones de productividad para ayudarlo a ahorrar tiempo, concentrarse en cosas más importantes y adoptar el enfoque centrado en el teclado.
+    Considered the best Python IDE for developers, PyCharm leaves no stone unturned in its charm. This enterprise-level product is developed by JetBrains, a Czech software company, that provides all the tools you need for Python in one place. It has many productivity features to help you save time, focus on more important things, and adopt a keyboard-centric approach.
 
-    PyCharm conoce todos los aspectos de su código. Por lo tanto, puede confiar en esta solución para la verificación de errores sobre la marcha, la finalización de código inteligente, la navegación de proyectos sin esfuerzo y la rápida corrección de errores. Ayuda a los desarrolladores a escribir códigos limpios y mantenibles y a regular el control de calidad a través de comprobaciones PEP8, refactorización inteligente, inspecciones y asistencia en las pruebas.
+    PyCharm knows every aspect of your code. Therefore, you can rely on this solution for on-the-fly error checking, intelligent code completion, effortless project navigation, and quick error fixing. It helps developers write clean and maintainable code and regulate quality control through PEP8 checks, intelligent refactoring, inspections, and testing assistance.
 
-    PyCharm tiene un editor de código inteligente que ofrece el mejor soporte de su clase no solo para Python sino también para JavaScript, TypeScript, CoffeeScript, CSS, famosos lenguajes de plantillas, Node.js, AngularJS y más. Obtiene una búsqueda inteligente si desea saltar a una clase, usos, implementación, prueba y más específicos.
+    PyCharm has an intelligent code editor that offers best-in-class support not only for Python but also for JavaScript, TypeScript, CoffeeScript, CSS, popular template languages, Node.js, AngularJS, and more. You get smart search if you want to jump to a specific class, usage, implementation, test, and more.
 
     ![PyCharm](https://blog.jetbrains.com/wp-content/uploads/2017/06/pycharm-Django-Startup.gif)
 
-3. **SlickEdit**
+3. **Spyder**
 
-    Una empresa con sede en EE. UU., tiene más de 35 años de desarrollo con un soporte excepcional para Python. Además, admite más de 70 lenguajes de programación, edita hasta 2 TB rápidamente, es altamente personalizable, tiene un gran soporte y tiene un foro de usuarios activo.
+   It is a robust scientific environment for Python designed for developers, data scientists, and engineers. It has a surprising combination of advanced editing, profiling, and debugging with data exploration, deep inspection, beautiful visualization, and interactive execution.
 
-    ![slick](https://www.slickedit.com/images/stories/products/slickedit/screenshots/2022/outlining/outlining.gif)
+    Spyder allows you to work efficiently using a multi-language editor with a class/function browser, code analysis, automatic code completion, access to definitions, and vertical/horizontal splitting. Leverage the full power of any number of IPython consoles you want within its flexible GUI.
 
-4. **Spyder**
+    You can also run file, line, or cell codes and then make inline plots. Quickly modify variables, edit a NumPy array or DataFrame, sort collections, delve into a nested object, and plot time series or histograms. You can view, save, and copy images and figures created during code execution.
 
-   Es un entorno científico robusto de Python diseñado para desarrolladores, científicos de datos e ingenieros. Tiene una sorprendente combinación de edición avanzada, creación de perfiles y depuración con exploración de datos, inspección profunda, hermosa visualización y ejecución interactiva.
-
-    Spyder le permite trabajar de manera eficiente utilizando un editor en varios idiomas que tiene un navegador de clases / funciones, análisis de código, finalización automática de código, definición de acceso y división vertical / horizontal. Aproveche toda la potencia de cualquier cantidad de consolas IPython que desee dentro de su interfaz gráfica de usuario flexible.
-
-    También puede ejecutar códigos de archivo, una línea o celular y luego hacer parcelas en línea. Modifica variables rápidamente, edita una matriz NumPy o un marco de datos, ordena colecciones, profundiza en un objeto anidado y traza series de tiempo o histogramas. Puede ver, guardar y copiar imágenes y figuras creadas durante la ejecución del código.
-
-    Rastree todos los pasos de ejecución de su código, depúrelos de manera interactiva, vea un documento de objeto y renderícelo instantáneamente. Spyder le permite ampliar la funcionalidad utilizando complementos de terceros como Spyder Notebook, Terminal, UnitTest, Reports, etc.
+    Trace all the execution steps of your code, debug it interactively, view an object document, and render it instantly. Spyder allows you to expand functionality using third-party plugins like Spyder Notebook, Terminal, UnitTest, Reports, etc.
 
     ![spyder](https://docs.spyder-ide.org/4/_images/plots-execution.gif)
 
-#### **Trabajando desde el IDLE**
+#### **Working from IDLE**
 
-Presionando la tecla windows y buscando IDLE nos aparecerá el IDLE de python
+Pressing the Windows key and searching for IDLE will bring up Python's IDLE.
 
 ![IDLEp](imgMD/idle.png)
 
-Nos aparece algo similar a lo de en terminal o cmd y como podemos notar funciona de la misma manera
+It appears similar to the terminal or cmd, and as we can see, it works the same way.
 
 ![IDLEn](imgMD/idleN.png)
 ![IDLEp](imgMD/idlePrint.png)
 
-si nos dirigimos a la pestaña File o archivo y en Nuevo archivo
+If we go to the File tab and then New File
 
 ![IDLEf](imgMD/idleFile.png)
 
-Nos aparecerá una nueva ventana, le damos en archivo y en guardar como y escogemos un nombre que queramos, de preferencia que no lleve espacios  , y le asignamos un nombre y podemos ver que cambia el nombre y la ruta del archivo
+A new window will appear. We go to File and Save As, choose a name we want (preferably without spaces), and assign a name. We can see that the name and path of the file change.
 
 ![idleFN](imgMD/idleFileN.png)
 
 ![idleNF](imgMD/idleFileNf.png)
-
-![hello](imgMD/Hello.png)
-
-podemos escribir dentro el *print ("Hello world")* y darle en run, seguido de run module y en guardar cambios y tendremos como resultado lo siguiente
-
-![print](imgMD/HelloPrint.png)
-
-Ahora que ya se sabe como podemos crear, editar y ejecutar código en Python explicaremos los tipos de datos que existen en Python
-
-#### ***Tipos de datos en Python***
-
-En Python, todo valor que pueda ser asignado a una variable tiene asociado un tipo de dato. Como ya te he mencionado alguna vez, en Python todo es un objeto. Así que los tipos de datos serían las clases (donde se definen las propiedades y qué se puede hacer con ellas) y las variables serían las instancias (objetos) de los tipos de datos. No te preocupes si no entiendes qué es una clase o un objeto, lo veremos en otro tutorial.
-
-En definitiva, un tipo de dato establece qué valores puede tomar una variable y qué operaciones se pueden realizar sobre la misma.
-
-##### ***Números***
-
-Los números son uno de los tipos de datos en Python. Podemos encontrarnos con números complejos, decimales o números enteros. Los números complejos se definen en Python como una “clase compleja”, mientras que los decimales se definen como “flotantes” y los enteros como “int”. Además, existe otro tipo de datos en esta categoría que se emplea para contener números largos.
-
-* Enteros: No existe un límite máximo en el valor de los números enteros.
-
-* Decimales: Admiten hasta 15 decimales y se usa el punto para marcar la separación.
-
-* Complejos: x+yj, es un ejemplo de representación de número complejo en Python.
-
-##### ***Secuencias***
-
-En Python las secuencias son las colecciones ordenadas de distintos tipos de datos, ya sean similares o diferentes. En las secuencias podemos almacenar múltiples valores de forma organizada y eficiente.
-
-Existen distintos tipos de secuencias:
-
-* String: Cadenas que representan uno o varios caracteres. Básicamente se trata de una línea de texto, que se encuadra dentro de la etiqueta str
-
-* Listas: Las listas son, fundamentalmente, lo que conocemos como arrays en otros lenguajes de programación. Es un elemento flexible ya que no es necesario que todos sus componentes sean del mismo tipo.
-
-* Tupla: Igual que sucede con las listas, la tupla también es una colección ordenada de objetos en Python. Se diferencian en que las tuplas son inmutables, mientras que las lista se pueden modificar.
-
-##### ***Boolean***
-
-Solo existen dos tipos de valores para los elementos boolean en Python: verdadero o falso. En general, funcionan y son un tipo de dato que también existe en otros lenguajes de programación.
-
-##### ***Set***
-
-El tipo de dato Set (conjuntos) en Python se emplea para agrupar los objetos únicos y que no están ordenados. En los conjuntos en Python, los valores duplicados se eliminan y solo se conservan los valores únicos. Operaciones como intersecciones y uniones se pueden realizar entre uno o más conjuntos.[tipos de datos en Python](https://www.tokioschool.com/noticias/tipos-de-datos-python/)
-
-#### ***Comentarios***
-
-La capacidad de comentar el código fuente figura en todos los lenguajes de programación. Un comentario es una línea de texto no ejecutable, esto quiere decir que el compilador o intérprete no la tomará como una línea de código. Los comentarios en Python, así como en otros lenguajes de programación, sirven para dejar pequeñas explicaciones sobre qué es lo que hace el programa. Sabemos que es muy difícil recordar cada aspecto de nuestro programa, sobre todo cuando trabajamos en proyectos largos y complicados. Python, al ser un lenguaje sencillo en cuestiones de sintaxis, nos ayuda a documentar apropiadamente nuestro código sin mucho esfuerzo. Esta es una práctica necesaria y los buenos desarrolladores harán un gran uso de los comentarios. Sin esto, el código fuente puede volverse confuso realmente rápido.
-
-En Python hacer comentarios de tres formas:
-
-* Escribiendo el símbolo de numeral (#) al comienzo de la línea de texto donde queremos nuestro comentario.
-
-* Escribiendo triple comillas (') al principio y al final del comentario, en este caso los comentarios pueden ocupar mas de una línea.
-
-* Escribiendo triple comillas doble(") al principio y al final del comentario, en este caso los comentarios pueden ocupar mas de una línea.
-
-    *código de ejemplo para todos los elementos anteriores*
-
-```python
-#Así se crea un comentario de una linea en Python
-'''
-Y así 
-se crea un comentario
-en multiples 
-lineas de código. Esto nos ayuda a documentar 
-bloques de código sin ser afectados
-'''
-"""
-En python no es necesario definir el tipo de dato que usaremos 
-A diferencia de C, C++, etc. que tenemos que definir los tipos de datos que usaremos y su valor, ejemplo en C++: int entero = 10;
-Aquí en python solo de escribimos el valor de la variable
-"""
-#Tipos de datos numéricos, el símbolo de ; nos sirve si queremos escribir una nueva linea de código frente a otra, de lo contrario no afecta su presencia en python
-#La palabra reservada type seguido de paréntesis y dentro en nombre de la variable, regresa el tipo de valor que es
-entero = 10
-decimal = 32.16
-complejo = 3 + 6j
-print(entero); print (type (entero))
-print (decimal); print (type (decimal))
-print (complejo); print (type (complejo))
-
-#tipos de datos secuencias
-#Diferentes formas de definir una cadena 
-cad1 = "Hola"
-cad2 = '¿Qué tal?'
-cad3 = '''Hola, que tal?'''
-print(cad1);print ( type (cad1))
-print(cad2);  print (type (cad2))
-print(cad3); print ( type (cad3))
-
-#También podemos crear cadenas con el constructor str a partir de otros tipos de datos.
-cad4=str(1)
-cad5=str(2.45)
-cad6=str([1,2,3])
-print(cad4);  print (type (cad4))
-print(cad5);  print (type (cad5))
-print(cad6);  print (type (cad6))
-
-#para crear listas se requiere de los corchetes []
-lista = ['lista']
-lista2 = [1, 2, 4, 6]
-lista3 = ["a",1,True]
-lista4 = []
-print(lista);  print (type (lista))
-print(lista2);  print (type (lista2))
-print(lista3);  print (type (lista3))
-print(lista4);  print (type (lista4))
-
-#Tuplas en Python
-tupla1 = (1, 2, 3)
-print(tupla1); print(type (tupla1))
-
-tupla2 = 1, 2, 3
-print(tupla2); print(type(tupla2))
-
-# Boolean
-boolean = True
-boolean2 = False
-print(boolean); print(type(boolean))
-print(boolean2); print(type(boolean2))
-
-#set
-# # Crea un conjunto con una serie de elementos entre llaves
-# Los elementos repetidos se eliminan
-dato_set = {1, 3, 2, 9, 3, 1}
-print (dato_set); print(type(dato_set))
-
-# Crea un conjunto a partir de un string
-# Los caracteres repetidos se eliminan
-a = set('Hola Pythonista')
-print (a); print(type(a))
-
-# Crea un conjunto a partir de una lista
-# Los elementos repetidos de la lista se eliminan
-solo1 = set([3, 5, 6, 1, 5])
-print (solo1); print(type(solo1))
-
-
-```
-# Detección de Similitud de Códigos Fuente
-
-Este código es una aplicación de detección de similitud de códigos fuente escrita en Python utilizando la biblioteca tkinter para crear una interfaz gráfica de usuario (GUI). La aplicación permite al usuario seleccionar una carpeta de archivos de entrenamiento y uno o más archivos de análisis en formato Java (.java) para compararlos con los archivos de entrenamiento. A continuación, se presenta una descripción general del código y sus principales componentes:
-
-## Bibliotecas Importadas
-
-El código comienza importando varias bibliotecas de Python que se utilizan a lo largo de la aplicación. Estas bibliotecas incluyen:
-
-- `os`: Para operaciones relacionadas con el sistema operativo.
-- `nltk`: Para el procesamiento del lenguaje natural (NLP).
-- `tkinter`: Para crear la interfaz gráfica de usuario (GUI).
-- `difflib`: Para calcular la similitud de códigos utilizando el algoritmo de diferencia.
-- `matplotlib`: Para crear gráficos.
-- `sklearn`: Para realizar cálculos de similitud y clustering.
-- `py_stringmatching`: Para calcular la similitud de Jaccard.
-- `pygments`: Para el resaltado de sintaxis de código Java.
-- `datetime`: Para trabajar con fechas y horas.
-
-## Clase `CodigoSimilaridadApp`
-
-La clase `CodigoSimilaridadApp` es la principal de la aplicación y hereda de `tk.Tk`, lo que la convierte en una ventana de la GUI. Aquí se describen los principales métodos y funcionalidades de la clase:
-
-### `__init__()`
-El constructor de la clase configura la ventana principal de la aplicación y establece el título.
-
-### `create_widgets()`
-Este método crea los widgets (elementos de la GUI) que se mostrarán en la ventana principal, como etiquetas y botones.
-
-### `seleccionar_carpeta_entrenamiento()`
-Abre un cuadro de diálogo para que el usuario seleccione una carpeta de archivos de entrenamiento.
-
-### `seleccionar_archivos_analisis()`
-Abre un cuadro de diálogo para que el usuario seleccione uno o más archivos de análisis.
-
-### `obtener_archivos_java(directorio)`
-Recorre recursivamente un directorio y recopila todos los archivos Java (.java) que encuentra.
-
-### `preprocesar_codigo(codigo)`
-Realiza el preprocesamiento del código fuente, que incluye tokenización, eliminación de palabras vacías (stopwords) y lematización.
-
-### `calcular_similitud_diff(codigo1, codigo2)`
-Calcula la similitud de códigos utilizando el algoritmo de diferencia (difflib).
-
-### `tokenizar_codigo(codigo)`
-Tokeniza el código fuente utilizando el resaltado de sintaxis de Pygments.
-
-### `calcular_similitud_jaccard(codigo1, codigo2)`
-Calcula la similitud de Jaccard entre dos códigos fuente.
-
-### `calcular_similitud_cosine(codigo1, codigo2)`
-Calcula la similitud del coseno entre dos códigos fuente preprocesados.
-
-### `detectar_similitud(codigo1, codigo2)`
-Calcula la similitud de códigos utilizando los métodos `calcular_similitud_diff`, `calcular_similitud_jaccard` y `calcular_similitud_cosine`.
-
-### `calcular_porcentaje_similitud(similitud)`
-Convierte un valor de similitud en un porcentaje redondeado.
-
-### `clustering(archivos)`
-Realiza el clustering de los archivos utilizando TF-IDF, LDA y K-Means.
-
-### `mostrar_similitudes_diff_grafico(resultados_similitud)`
-Muestra un gráfico de barras de la similitud calculada con el algoritmo de diferencia.
-
-### `mostrar_similitudes_jaccard_grafico(resultados_similitud)`
-Muestra un gráfico de barras de la similitud de Jaccard.
-
-### `mostrar_similitudes_cosine_grafico(resultados_similitud)`
-Muestra un gráfico de barras de la similitud del coseno.
-
-### `generar_reporte(resultados_similitud, clusters)`
-Genera un archivo de reporte con los resultados de la similitud y la información de clustering.
-
-### `mostrar_similitud_grafica(codigo1, codigo2)`
-Muestra una ventana con la comparación gráfica de dos códigos fuente.
-
-### `mostrar_siguiente_similitud()`
-Muestra la siguiente similitud calculada y la comparación gráfica.
-
-### `actualizar_estado_analisis()`
-Actualiza la etiqueta que muestra el estado del análisis.
-
-### `iniciar_analisis()`
-Inicia el proceso de análisis de similitud entre los archivos de análisis y entrenamiento seleccionados.
-
-## Ventana Principal y Ejecución
-
-La última parte del código crea una instancia de la clase `CodigoSimilaridadApp`, configura una etiqueta para mostrar el estado del análisis y un botón para mostrar la siguiente similitud. Luego, inicia la interfaz de usuario utilizando `app.mainloop()`.
-
-Esta aplicación proporciona una herramienta para comparar códigos fuente en busca de similitudes utilizando diferentes algoritmos y mostrar los resultados de manera gráfica y en un archivo de reporte.
