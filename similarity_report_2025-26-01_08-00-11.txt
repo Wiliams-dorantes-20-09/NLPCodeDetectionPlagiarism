@@ -1,0 +1,110 @@
+Archivo de análisis: D:/Music/lg/NLPCodeDetect/codigo.java
+Archivo de otro usuario: D:/Music/lg/NLPCodeDetect/test\codigo1.java
+Similitud de código (Diff): 0.6818181818181818
+Similitud de código (Jaccard): 0.6388888888888888
+Similitud de código (Cosine): 0.8127487354247702
+Porcentaje de similitud (Diff): 68.18%
+Porcentaje de similitud (Jaccard): 63.89%
+Porcentaje de similitud (Cosine): 81.27%
+Cluster de análisis: 1
+Cluster de otro usuario: 1
+---
+Archivo de análisis: D:/Music/lg/NLPCodeDetect/codigo.java
+Archivo de otro usuario: D:/Music/lg/NLPCodeDetect/test\codigo10.java
+Similitud de código (Diff): 0.5842217484008528
+Similitud de código (Jaccard): 0.627906976744186
+Similitud de código (Cosine): 0.5708148798862597
+Porcentaje de similitud (Diff): 58.42%
+Porcentaje de similitud (Jaccard): 62.79%
+Porcentaje de similitud (Cosine): 57.08%
+Cluster de análisis: 1
+Cluster de otro usuario: 0
+---
+Archivo de análisis: D:/Music/lg/NLPCodeDetect/codigo.java
+Archivo de otro usuario: D:/Music/lg/NLPCodeDetect/test\codigo2.java
+Similitud de código (Diff): 0.6165413533834586
+Similitud de código (Jaccard): 0.6216216216216216
+Similitud de código (Cosine): 0.6998448191410784
+Porcentaje de similitud (Diff): 61.65%
+Porcentaje de similitud (Jaccard): 62.16%
+Porcentaje de similitud (Cosine): 69.98%
+Cluster de análisis: 1
+Cluster de otro usuario: 1
+---
+Archivo de análisis: D:/Music/lg/NLPCodeDetect/codigo.java
+Archivo de otro usuario: D:/Music/lg/NLPCodeDetect/test\codigo3.java
+Similitud de código (Diff): 0.6878306878306878
+Similitud de código (Jaccard): 0.5581395348837209
+Similitud de código (Cosine): 0.511983571737708
+Porcentaje de similitud (Diff): 68.78%
+Porcentaje de similitud (Jaccard): 55.81%
+Porcentaje de similitud (Cosine): 51.2%
+Cluster de análisis: 1
+Cluster de otro usuario: 1
+---
+Archivo de análisis: D:/Music/lg/NLPCodeDetect/codigo.java
+Archivo de otro usuario: D:/Music/lg/NLPCodeDetect/test\codigo4.java
+Similitud de código (Diff): 0.5021645021645021
+Similitud de código (Jaccard): 0.5813953488372093
+Similitud de código (Cosine): 0.4749089287057021
+Porcentaje de similitud (Diff): 50.22%
+Porcentaje de similitud (Jaccard): 58.14%
+Porcentaje de similitud (Cosine): 47.49%
+Cluster de análisis: 1
+Cluster de otro usuario: 0
+---
+Archivo de análisis: D:/Music/lg/NLPCodeDetect/codigo.java
+Archivo de otro usuario: D:/Music/lg/NLPCodeDetect/test\codigo5.java
+Similitud de código (Diff): 0.6878306878306878
+Similitud de código (Jaccard): 0.5581395348837209
+Similitud de código (Cosine): 0.511983571737708
+Porcentaje de similitud (Diff): 68.78%
+Porcentaje de similitud (Jaccard): 55.81%
+Porcentaje de similitud (Cosine): 51.2%
+Cluster de análisis: 1
+Cluster de otro usuario: 0
+---
+Archivo de análisis: D:/Music/lg/NLPCodeDetect/codigo.java
+Archivo de otro usuario: D:/Music/lg/NLPCodeDetect/test\codigo6.java
+Similitud de código (Diff): 0.8688524590163934
+Similitud de código (Jaccard): 0.8378378378378378
+Similitud de código (Cosine): 0.8363150240554544
+Porcentaje de similitud (Diff): 86.89%
+Porcentaje de similitud (Jaccard): 83.78%
+Porcentaje de similitud (Cosine): 83.63%
+Cluster de análisis: 1
+Cluster de otro usuario: 1
+---
+Archivo de análisis: D:/Music/lg/NLPCodeDetect/codigo.java
+Archivo de otro usuario: D:/Music/lg/NLPCodeDetect/test\codigo7.java
+Similitud de código (Diff): 0.788659793814433
+Similitud de código (Jaccard): 0.7894736842105263
+Similitud de código (Cosine): 0.8363150240554544
+Porcentaje de similitud (Diff): 78.87%
+Porcentaje de similitud (Jaccard): 78.95%
+Porcentaje de similitud (Cosine): 83.63%
+Cluster de análisis: 1
+Cluster de otro usuario: 1
+---
+Archivo de análisis: D:/Music/lg/NLPCodeDetect/codigo.java
+Archivo de otro usuario: D:/Music/lg/NLPCodeDetect/test\codigo8.java
+Similitud de código (Diff): 0.7193877551020408
+Similitud de código (Jaccard): 0.7692307692307693
+Similitud de código (Cosine): 0.8363150240554544
+Porcentaje de similitud (Diff): 71.94%
+Porcentaje de similitud (Jaccard): 76.92%
+Porcentaje de similitud (Cosine): 83.63%
+Cluster de análisis: 1
+Cluster de otro usuario: 0
+---
+Archivo de análisis: D:/Music/lg/NLPCodeDetect/codigo.java
+Archivo de otro usuario: D:/Music/lg/NLPCodeDetect/test\codigo9.java
+Similitud de código (Diff): 0.8103448275862069
+Similitud de código (Jaccard): 0.631578947368421
+Similitud de código (Cosine): 0.7402488607167945
+Porcentaje de similitud (Diff): 81.03%
+Porcentaje de similitud (Jaccard): 63.16%
+Porcentaje de similitud (Cosine): 74.02%
+Cluster de análisis: 1
+Cluster de otro usuario: 0
+---
